@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <title>Team Meeting Minutes</title>
-    <meta charset="utf-8" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -44,18 +44,18 @@
             <li>Action Item 2</li>
             <li>Action Item 3</li>
           </ul>
-          <hr />
+          <hr>
           <h3>Missing Team Members:</h3>
           <ul>
             <li>Team Member 1</li>
             <li>Team Member 2</li>
             <li>Team Member 3</li>
           </ul>
-          <p>Location: <br />Zoom</p>
-          <hr />
+          <p>Location: <br>Zoom</p>
+          <hr>
         </div>
       </section>
-      <br />
+      <br>
       <section>
         <div>
           <h2>Roles Discussed from last meeting</h2>
@@ -81,19 +81,21 @@
           </ol>
         </div>
       </section>
-      <br />
+      <br>
       <section>
-        <img src="IMG_1217.JPG" alt="Image of team 16!" width="400" />
+        <h2>Media</h2>
+        <img src="IMG_1217.JPG" alt="Image of team 16!" width="400">
         <audio controls>
-          <source src="cse110audio.m4a" type="audio/mp4" />
+          <source src="cse110audio.m4a" type="audio/mp4">
           Your browser does not support the audio element.
         </audio>
         <video controls>
-          <source src="cse110video.mov" type="video/mp4" />
+          <source src="cse110video.mov" type="video/mp4">
           Your browser does not support the video element.
         </video>
       </section>
       <section>
+        <h2>Additional Info</h2>
         <details>
           <summary>Timeline</summary>
           <ol>
@@ -104,104 +106,95 @@
         </details>
       </section>
       <section>
+        <h2>Feedback Form</h2>
         <form>
           <fieldset>
             <legend>Meeting Feedback</legend>
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name" /><br />
-            <br />
-            <label for="date">Date:</label><br />
-            <input type="date" id="date" name="date" /><br />
-            <br />
-            <label for="feedback-select">How would you rate the meeting?</label
-            ><br />
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <br>
+            <label for="date">Date:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <br>
+            <label for="feedback-select">How would you rate the meeting?</label><br>
             <select id="feedback-select" name="feedback-select">
               <option value="excellent">Excellent</option>
               <option value="good">Good</option>
               <option value="average">Average</option>
             </select>
-            <br />
-            <br />
-            <label for="usefulness">How useful was the meeting?</label><br />
+            <br>
+            <br>
+            <label>How useful was the meeting?</label><br>
             <input
               type="radio"
               id="very_useful"
               name="usefulness"
               value="very_useful"
-            />
-            <label for="very_useful">Very Useful</label><br />
+            >
+            <label for="very_useful">Very Useful</label><br>
             <input
               type="radio"
               id="somewhat_useful"
               name="usefulness"
               value="somewhat_useful"
-            />
-            <label for="somewhat_useful">Somewhat Useful</label><br />
+            >
+            <label for="somewhat_useful">Somewhat Useful</label><br>
             <input
               type="radio"
               id="not_useful"
               name="usefulness"
               value="not_useful"
-            />
-            <label for="not_useful">Not Useful</label><br />
-            <br />
-            <label for="improvements"
-              >What improvements would you suggest for future meetings?</label
-            ><br />
+            >
+            <label for="not_useful">Not Useful</label><br>
+            <br>
+            <label>What improvements would you suggest for future meetings?</label><br>
             <input
               type="checkbox"
               id="agenda"
               name="improvements"
               value="agenda"
-            />
-            <label for="agenda">More structured agenda</label><br />
+            >
+            <label for="agenda">More structured agenda</label><br>
             <input
               type="checkbox"
               id="time_management"
               name="improvements"
               value="time_management"
-            />
-            <label for="time_management">Better time management</label><br />
+            >
+            <label for="time_management">Better time management</label><br>
             <input
               type="checkbox"
               id="participation"
               name="improvements"
               value="participation"
-            />
-            <label for="participation"
-              >More participation from team members</label
-            ><br />
+            >
+            <label for="participation">More participation from team members</label><br>
             <input
               type="checkbox"
               id="other"
               name="improvements"
               value="other"
-            />
-            <label for="other">Other</label><br />
-            <br />
-            <label for="topics"
-              >Which topics would you like to discuss in future meetings?</label
-            ><br />
-            <input list="topics" id="topic-input" name="topic-input" />
+            >
+            <label for="other">Other</label><br>
+            <br>
+            <label for="topics-input">Which topics would you like to discuss in future meetings?</label><br>
+            <input list="topics" id="topics-input" name="topics-input">
             <datalist id="topics">
               <option value="Project Updates"></option>
               <option value="Team Building Activities"></option>
               <option value="Technical Discussions"></option>
               <option value="Other"></option>
             </datalist>
-            <br />
-            <br />
-            <label for="feedback"
-              >Please provide your feedback on the meeting:</label
-            ><br />
+            <br>
+            <br>
+            <label for="feedback">Please provide your feedback on the meeting:</label><br>
             <textarea
               id="feedback"
               name="feedback"
               rows="4"
               cols="50"
-            ></textarea
-            ><br />
-            <input type="submit" value="Submit Feedback" />
+            ></textarea><br>
+            <input type="submit" value="Submit Feedback">
             <button type="reset">Reset</button>
           </fieldset>
         </form>

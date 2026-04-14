@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Team Meeting Minutes</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <h1>Team Meeting Minutes</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="notes.html">Notes</a>
+        <a href="tasks.html">Tasks</a>
+      </nav>
+      <h2>Meeting Notes</h2>
+      <p>Here are the notes from our meeting:</p>
+      <p>Meeting Type: <strong>Kickoff</strong></p>
+    </header>
+    <main>
+      <section>
+        <div>
+          <h3>Date:</h3>
+          <p>MM/DD/YYYY</p>
+          <h3>Attendees:</h3>
+          <ul>
+            <li>Attendee 1</li>
+            <li>Attendee 2</li>
+            <li>Attendee 3</li>
+          </ul>
+          <h3>Agenda:</h3>
+          <ul>
+            <li>Agenda Item 1</li>
+            <li>Agenda Item 2</li>
+            <li>Agenda Item 3</li>
+          </ul>
+          <h3>Discussion Points:</h3>
+          <ul>
+            <li>Discussion Point 1</li>
+            <li>Discussion Point 2</li>
+            <li>Discussion Point 3</li>
+          </ul>
+          <h3>Action Items:</h3>
+          <ul>
+            <li>Action Item 1</li>
+            <li>Action Item 2</li>
+            <li>Action Item 3</li>
+          </ul>
+          <hr />
+          <h3>Missing Team Members:</h3>
+          <ul>
+            <li>Team Member 1</li>
+            <li>Team Member 2</li>
+            <li>Team Member 3</li>
+          </ul>
+          <p>Location: <br />Zoom</p>
+          <hr />
+        </div>
+      </section>
+      <br />
+      <section>
+        <div>
+          <h2>Roles Discussed from last meeting</h2>
+          <ul>
+            <li><b>Bob Marely:</b> <span>Team Lead</span></li>
+            <li><b>John Doe:</b> <span>Developer</span></li>
+            <li><b>Jane Doe:</b> <span>Designer</span></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Continued Discussions from last Meeting:</h2>
+          <ol>
+            <li>Discussion Point 1: Discussed new <i>frontend design</i></li>
+            <li>Discussion Point 2</li>
+            <li>Discussion Point 3</li>
+          </ol>
+          <h2>New Business:</h2>
+          <ol>
+            <li>New Discussion Point 1</li>
+            <li>New Discussion Point 2</li>
+            <li>New Discussion Point 3</li>
+            <li>Assignment Due: <em>Sunday</em></li>
+          </ol>
+        </div>
+      </section>
+      <br />
+      <section>
+        <img src="IMG_1217.JPG" alt="Image of team 16!" width="400" />
+        <audio controls>
+          <source src="cse110audio.m4a" type="audio/mp4" />
+          Your browser does not support the audio element.
+        </audio>
+        <video controls>
+          <source src="cse110video.mov" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+      </section>
+      <section>
+        <details>
+          <summary>Timeline</summary>
+          <ol>
+            <li>Timeline Item 1</li>
+            <li>Timeline Item 2</li>
+            <li>Timeline Item 3</li>
+          </ol>
+        </details>
+      </section>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" /><br />
+            <br />
+            <label for="date">Date:</label><br />
+            <input type="date" id="date" name="date" /><br />
+            <br />
+            <label for="feedback-select">How would you rate the meeting?</label
+            ><br />
+            <select id="feedback-select" name="feedback-select">
+              <option value="excellent">Excellent</option>
+              <option value="good">Good</option>
+              <option value="average">Average</option>
+            </select>
+            <br />
+            <br />
+            <label for="usefulness">How useful was the meeting?</label><br />
+            <input
+              type="radio"
+              id="very_useful"
+              name="usefulness"
+              value="very_useful"
+            />
+            <label for="very_useful">Very Useful</label><br />
+            <input
+              type="radio"
+              id="somewhat_useful"
+              name="usefulness"
+              value="somewhat_useful"
+            />
+            <label for="somewhat_useful">Somewhat Useful</label><br />
+            <input
+              type="radio"
+              id="not_useful"
+              name="usefulness"
+              value="not_useful"
+            />
+            <label for="not_useful">Not Useful</label><br />
+            <br />
+            <label for="improvements"
+              >What improvements would you suggest for future meetings?</label
+            ><br />
+            <input
+              type="checkbox"
+              id="agenda"
+              name="improvements"
+              value="agenda"
+            />
+            <label for="agenda">More structured agenda</label><br />
+            <input
+              type="checkbox"
+              id="time_management"
+              name="improvements"
+              value="time_management"
+            />
+            <label for="time_management">Better time management</label><br />
+            <input
+              type="checkbox"
+              id="participation"
+              name="improvements"
+              value="participation"
+            />
+            <label for="participation"
+              >More participation from team members</label
+            ><br />
+            <input
+              type="checkbox"
+              id="other"
+              name="improvements"
+              value="other"
+            />
+            <label for="other">Other</label><br />
+            <br />
+            <label for="topics"
+              >Which topics would you like to discuss in future meetings?</label
+            ><br />
+            <input list="topics" id="topic-input" name="topic-input" />
+            <datalist id="topics">
+              <option value="Project Updates"></option>
+              <option value="Team Building Activities"></option>
+              <option value="Technical Discussions"></option>
+              <option value="Other"></option>
+            </datalist>
+            <br />
+            <br />
+            <label for="feedback"
+              >Please provide your feedback on the meeting:</label
+            ><br />
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <input type="submit" value="Submit Feedback" />
+            <button type="reset">Reset</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h2>Next Meeting:</h2>
+      <p>Date:</p>
+      <p>Time:</p>
+      <p>Location:</p>
+    </footer>
+  </body>
+</html>

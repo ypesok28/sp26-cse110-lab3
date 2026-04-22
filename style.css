@@ -16,6 +16,21 @@
 body {
   background-color: var(--bg, #faf5ef);
   color: var(--text);
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+main {
+  width: 90%;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28pt;
+  letter-spacing: 0.03cm;
 }
 
 header,

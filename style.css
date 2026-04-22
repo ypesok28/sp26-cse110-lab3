@@ -200,3 +200,18 @@ fieldset {
     color: var(--accent);
   }
 }
+
+/* responsive */
+@media (max-width: 700px) {
+  body {
+    padding: 0.75rem;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 22pt;
+  }
+}

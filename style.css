@@ -75,6 +75,16 @@ main > br {
 footer {
   margin-top: 2rem;
   margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h2 {
+  flex-basis: 100%;
+  text-align: center;
 }
 
 section {

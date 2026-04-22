@@ -103,6 +103,31 @@ a:hover {
   text-decoration: none;
 }
 
+a:active {
+  color: var(--text);
+}
+
+/* form buttons */
+button,
+input[type="submit"] {
+  background-color: var(--accent);
+  color: var(--bg);
+  border: 1px solid var(--accent-strong);
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background-color: var(--accent-strong);
+}
+
+button:active,
+input[type="submit"]:active {
+  background-color: var(--text);
+}
+
 h1 {
   font-size: 28pt;
   letter-spacing: 0.03cm;

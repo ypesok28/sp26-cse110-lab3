@@ -168,3 +168,34 @@ hr {
 ::selection {
   background-color: var(--highlight);
 }
+
+/* selector coverage */
+* {
+  box-sizing: border-box;
+}
+
+#feedback {
+  width: 100%;
+}
+
+p.meta {
+  color: var(--text-muted);
+}
+
+h3 + ul {
+  margin-top: 0.25rem;
+}
+
+h2 ~ ol {
+  padding-left: 1.5rem;
+}
+
+section:has(img) {
+  background-color: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+fieldset {
+  & legend {
+    color: var(--accent);
+  }
+}

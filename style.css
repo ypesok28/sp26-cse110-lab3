@@ -37,6 +37,41 @@ footer {
   margin-bottom: 1.5rem;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--bg);
+}
+
+section {
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  height: auto;
+}
+
+hr {
+  height: 1px;
+}
+
+main > br {
+  display: none;
+}
+
 footer {
   margin-top: 2rem;
   margin-bottom: 0;

@@ -1,1 +1,53 @@
 /* styles for team meeting minutes */
+
+/* warm & friendly color system */
+:root {
+  --bg: #faf5ef;
+  --surface: hsl(38, 60%, 97%);
+  --text: rgb(59, 47, 42);
+  --text-muted: hsla(30, 12%, 45%, 0.9);
+  --accent: #c26240;
+  --accent-strong: color-mix(in srgb, #c26240 78%, black);
+  --accent-wide: color(display-p3 0.76 0.38 0.25);
+  --border: #e4d8c5;
+  --highlight: cornsilk;
+}
+
+body {
+  background-color: var(--bg, #faf5ef);
+  color: var(--text);
+}
+
+header,
+footer {
+  background-color: var(--surface);
+}
+
+h1, h2, h3 {
+  color: var(--accent-wide);
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-strong);
+}
+
+p {
+  color: var(--text);
+}
+
+em,
+i {
+  color: var(--text-muted);
+}
+
+hr {
+  border-color: var(--border);
+}
+
+::selection {
+  background-color: var(--highlight);
+}

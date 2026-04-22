@@ -36,6 +36,27 @@ h1 {
 header,
 footer {
   background-color: var(--surface);
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+section {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  border-style: solid;
+  border-color: var(--border);
+  border-width: 1px;
+  border-radius: 6px;
 }
 
 h1, h2, h3 {
